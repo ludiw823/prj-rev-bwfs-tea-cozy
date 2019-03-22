@@ -1,0 +1,175 @@
+* {
+	font-family:  Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+
+	text-align: center;
+    padding:0;
+    margin:0;
+}
+
+header{
+	display: flex;
+	height:69px;
+	width:100%;
+	position:fixed;
+	border-bottom: 1px solid seashell;
+	justify-content: space-between;
+	align-items: center;
+	z-index:2;
+}
+
+.logo img{
+	margin-left: 10px;
+	height:50px;
+}
+
+.nav{
+  display:flex;
+  flex-direction: row;
+  right:0px;
+}
+
+.nav span{
+  display: inline-block;
+  align-items:center;
+  padding:20px;
+  text-align: right;
+}
+
+.nav span a{
+	font-family: Helvetica;
+}
+
+.missionImg {
+	top:70px;
+	width:1200px;
+	height: 700px;
+	background-image: url("img/img-mission-background.jpg");
+	display: flex;
+	align-items: center;
+}
+
+.missionDesp {
+	width:100%;
+}
+
+.missionDesp h2,h4{
+	text-align: center;
+	padding:15px;
+}
+
+.missionDesp h2{
+	font-size: 35px;
+}
+
+.feature {
+	width:1000px;
+	margin:30px auto;
+}
+
+#featureTeaTitle {
+	margin:10px;
+}
+
+#featureTeaTitle h2{
+	font-size: 35px;
+}
+
+#featureTeaTitle h2,h4{
+	text-align: center;
+	padding:15px;
+}
+
+.FeatureTea {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    flex-wrap: wrap;
+}
+
+.FeatureTea img{
+	height:200px;
+	width:300px;
+	padding:15px 16px 5px 16px;
+}
+
+.FeatureTea p{
+	padding: 10px;
+}
+
+.locationImg{
+	height:500px;
+	width:1200px;
+	background-image:url("img/img-locations-background.jpg"); 
+}
+
+.locationImg h2{
+	background: none;
+	margin:0 auto;
+	padding-top:40px;
+	padding-bottom: 15px;
+	font-size: 40px;
+}
+
+.locations{
+	background: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:980px;
+	margin:0 auto;
+}
+
+.locations div{
+	width:300px;
+}
+
+.loc h3 {
+	padding-top:40px;
+	line-height: 15px;
+	font-weight: 900;
+	font-size: 28px;
+}
+
+.loc p {
+	padding:10px 0;
+	line-height: 70px;
+	padding-top:30px;
+	font-weight:normal;
+	font-size: 19px;
+}
+
+.contact{
+	height:200px;
+}
+
+.contact h2{
+	padding: 20px;
+	font-weight: 900;
+	font-size: 28px;
+}
+
+.contact h5{
+	line-height: 50px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+footer p{
+	text-align: left;
+	padding-left:20px;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
